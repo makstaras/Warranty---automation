@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="119862" started-at="2017-10-25T11:40:59Z" finished-at="2017-10-25T11:42:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="119862" started-at="2017-10-25T11:40:59Z" finished-at="2017-10-25T11:42:59Z">
+      <class name="tests.TestCaseLoginLinks">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="verifyHomepageTitle" is-config="true" duration-ms="24" started-at="2017-10-25T14:42:33Z" finished-at="2017-10-25T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="register()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="register" duration-ms="2222" started-at="2017-10-25T14:42:33Z" finished-at="2017-10-25T14:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="goBackToHomepage" is-config="true" duration-ms="1370" started-at="2017-10-25T14:42:35Z" finished-at="2017-10-25T14:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="verifyHomepageTitle" is-config="true" duration-ms="15" started-at="2017-10-25T14:42:50Z" finished-at="2017-10-25T14:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="support()[pri:1, instance:tests.TestCaseLoginLinks@27efef64]" name="support" duration-ms="3082" started-at="2017-10-25T14:42:50Z" finished-at="2017-10-25T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="goBackToHomepage" is-config="true" duration-ms="1398" started-at="2017-10-25T14:42:53Z" finished-at="2017-10-25T14:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+      </class> <!-- tests.TestCaseLoginLinks -->
+      <class name="tests.TestCaseNotValidAutorization">
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:tests.TestCaseNotValidAutorization@47c62251]" name="test_Home_Page_Appear_Correct" duration-ms="2101" started-at="2017-10-25T14:42:48Z" finished-at="2017-10-25T14:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+      </class> <!-- tests.TestCaseNotValidAutorization -->
+      <class name="tests.TestNewClaim">
+        <test-method status="PASS" signature="support()[pri:0, instance:tests.TestNewClaim@59f99ea]" name="support" duration-ms="5769" started-at="2017-10-25T14:42:27Z" finished-at="2017-10-25T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+      </class> <!-- tests.TestNewClaim -->
+      <class name="tests.TestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.TestCase@6f7fd0e6]" name="setup" is-config="true" duration-ms="19621" started-at="2017-10-25T14:40:59Z" finished-at="2017-10-25T14:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="launchBrowser" is-config="true" duration-ms="16692" started-at="2017-10-25T14:41:19Z" finished-at="2017-10-25T14:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.TestCaseNotValidAutorization@47c62251]" name="setup" is-config="true" duration-ms="18791" started-at="2017-10-25T14:41:35Z" finished-at="2017-10-25T14:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.TestNewClaim@59f99ea]" name="setup" is-config="true" duration-ms="32843" started-at="2017-10-25T14:41:54Z" finished-at="2017-10-25T14:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:tests.TestCase@6f7fd0e6]" name="test_Home_Page_Appear_Correct" duration-ms="11709" started-at="2017-10-25T14:42:36Z" finished-at="2017-10-25T14:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:tests.TestCase@6f7fd0e6]" name="terminateBrowser" is-config="true" duration-ms="1930" started-at="2017-10-25T14:42:55Z" finished-at="2017-10-25T14:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:tests.TestCaseLoginLinks@27efef64]" name="terminateBrowser" is-config="true" duration-ms="1148" started-at="2017-10-25T14:42:57Z" finished-at="2017-10-25T14:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:tests.TestCaseNotValidAutorization@47c62251]" name="terminateBrowser" is-config="true" duration-ms="1080" started-at="2017-10-25T14:42:58Z" finished-at="2017-10-25T14:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- tests.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
